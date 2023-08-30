@@ -31,14 +31,17 @@ function App() {
             <FaTwitter className="iconTwo" />
             <FaLinkedin className="iconTwo" />
           </div>
-          <div className="topOne">
-            <h3 className="pp">Get in touch</h3>
-            <p className="pp">
+          <div className="grid">
+            <div className="topOne">
+            <h3 className="padding">Get in touch</h3>
+            <p className="padding">
               Your Questions and Feedback Matter to Us - Reach Out, Let's
               Connect, and Explore Together to Ensure Your Rare Eat Fresh
               Experience Is Exceptional and Delightful.
             </p>
             <Form />
+            </div>
+           
           </div>
         </div>
         <div className="main">

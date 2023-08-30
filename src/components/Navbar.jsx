@@ -49,9 +49,9 @@ function Navbar() {
       </div>
       <div className="menu">
         {toggle ? (
-          <FaXmark onClick={() => setToggle(!toggle)} />
+          <FaXmark size={20} onClick={() => setToggle(!toggle)} />
         ) : (
-          <FaList onClick={() => setToggle(!toggle)} />
+          <FaList size={20} onClick={() => setToggle(!toggle)} />
         )}
         <div
           className={`${
