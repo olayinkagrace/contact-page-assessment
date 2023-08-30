@@ -1,0 +1,271 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #131313;
+  background-color: #f9f9f9;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 1px #dadada;
+}
+.contact {
+  padding: 0% 4%;
+}
+.link {
+  color: #131313;
+  margin: 10px;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #131313;
+  border-radius: 20px;
+}
+.search_input {
+  border: none;
+  background-color: #f9f9f9;
+}
+.search_icon {
+  margin-left: 12px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.user {
+  border: 2px solid rgb(247, 68, 98);
+  background-color: rgb(253, 241, 243);
+  border-radius: 20px;
+  padding: 2px 8px;
+}
+
+.topOne {
+  background-color: #1313131a;
+  width: 65%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: auto;
+  float: left;
+}
+.topTwo {
+  background-color: #1313131a;
+  width: 25%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 2px 20px;
+}
+.top {
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  background-color: white;
+  align-items: last baseline;
+  border-radius: 20px;
+}
+.pp {
+  padding: 0px 40px;
+}
+.form {
+  width: 90%;
+  margin: auto;
+}
+.form_input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  box-sizing: border-box;
+  resize: none;
+  background-color: #f9f9f9;
+}
+.btnTwo {
+  background-color: #f36f00;
+  padding: 8px 30px;
+  border-radius: 18px;
+  border-color: #f36f00;
+  color: white;
+  font-size: smaller;
+  width: 100%;
+}
+
+.btn {
+  background-color: #f36f00;
+  padding: 8px 50px;
+  border-radius: 18px;
+  border-color: #f36f00;
+  outline: #f36f00;
+  color: white;
+  font-size: smaller;
+  margin-left: 10px;
+}
+p {
+  font-size: 16px;
+}
+h5 {
+  color: #f36f00;
+  font-size: 15px;
+}
+h3 {
+  font-size: 32px;
+}
+input {
+  border-radius: 18px;
+  padding: 8px 20px;
+  font-size: smaller;
+  color: blue;
+}
+
+.icons {
+  background-color: white;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.iconTwo {
+  background-color: black;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(216, 211, 211);
+  border-radius: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+}
+.menu {
+  position: relative;
+}
+.show {
+  visibility: visible;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.main {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 4%;
+}
+
+.bottom {
+  margin: 30px 0px;
+}
+.footer {
+  background-color: black;
+  color: rgb(153, 151, 151);
+}
+.footer_grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  font-size: smaller;
+}
+.footer_section {
+  padding: 4%;
+}
+.small {
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 25px;
+}
+.contact_us {
+  font-size: 14px;
+}
+@media screen and (max-width: 1100px) {
+  .flex,
+  .links,
+  .search {
+    display: none;
+  }
+  .menu {
+    visibility: visible;
+  }
+  .topOne {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .menu,
+  .show {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topOne {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .topTwo > p,
+  .topOne > p {
+    font-size: 12px;
+  }
+  img {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .contact_us {
+    font-size: 12px;
+  }
+  input {
+    padding: 8px 0px;
+    width: 95%;
+    text-align: center;
+  }
+  .btn,
+  .btnTwo {
+    width: 95%;
+    margin-left: 0px;
+    padding: 8px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 212px) {
+  .contact_us {
+    font-size: 9px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
