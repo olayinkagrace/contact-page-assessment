@@ -135,6 +135,7 @@ input {
 
 .icons {
   background-color: white;
+  color: #2A2F2F;
   margin: 4px;
   border-radius: 5px;
   padding: 4px;
@@ -225,7 +226,7 @@ input {
 
 @media screen and (max-width: 900px) {
   .topOne {
-    margin-left: 20px;
+
   }
 }
 
@@ -273,5 +274,8 @@ input {
   }
   h3 {
     font-size: 18px;
+  }
+  .icons {
+    font-size: 10px;
   }
 }
